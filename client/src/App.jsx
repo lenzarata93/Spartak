@@ -1,11 +1,12 @@
 
+import Header from "./components/Header/header"
 
 function App() {
   
 
   return (
     <>
-      <h1>HELLO WORLD</h1>
+     <Header />
     </>
   )
 }

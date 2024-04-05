@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color:rgb(113, 112, 155);
+    font-family: Amatic SC;
+    font-size: 20px;
+}
+h1,h2{
+    font-weight: bold;
+}
+
+.site-header{
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: end;
+    background-image: url(../pics/Без\ име.png);
+    background-size:contain;
+    background-repeat:repeat-x;
+    background-position:top;
+
+
+
+}
+.news-text{
+    max-height:100px;
+    overflow:hidden;
+}
+.news img {
+    align-items: center;
+}
+
+.site-main{
+    margin-top: 2em;
+
+}
+.site-footer{
+
+}
+.site-nav{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.site-header , .site-main{
+margin-bottom: 1em;
+}
+.site-logo , .site-nav {
+    display: flex;
+    flex-shrink: 1;
+    flex-grow: 1;
+    align-content: flex-end;
+}
+.site-footer .site-logo img{
+    height: 105px;
+}
+.site-nav nav a{
+    margin-right: 15px;
+    text-decoration: none;
+    color: skyblue;
+    font-size: 24px;
+    
+   
+
+}
+.site-nav nav a:hover {
+    margin-right: 15px;
+    text-decoration: none;
+    color:aqua;
+    font-size: 32px;
+    text-decoration:double;
+    
+
+}
+nav p {
+    margin: 0;
+}
+.site-main img {
+    width: 250px;
+    height: auto;
+}
+.news{
+    width: 24%;
+    height: 500px;
+   display: inline-block;
+   border: 3px solid cornsilk;
+   margin: 0.1em;
+
+}
+.context{
+    display: flex;
+    align-items: center;
+    justify-content: center
+
+}
+.site-footer{
+    display: flex;
+    justify-content: space-around;
+}
+.news-container{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.site-aboutUs{
+    border: 3px solid red;
+}
